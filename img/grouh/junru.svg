@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 407.07">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .2em;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        font-size: 30px;
+      }
+
+      .cls-4 {
+        letter-spacing: .2em;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7 {
+        font-size: 12px;
+      }
+
+      .cls-2, .cls-8 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-9, .cls-6, .cls-10 {
+        fill: #4684c1;
+      }
+
+      .cls-11 {
+        fill: #5dd3ed;
+      }
+
+      .cls-5, .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5, .cls-6, .cls-8, .cls-10, .cls-12, .cls-13 {
+        font-family: Osaka-Mono, Osaka;
+      }
+
+      .cls-5, .cls-13 {
+        fill: #fff;
+      }
+
+      .cls-14 {
+        fill: #101545;
+      }
+
+      .cls-14, .cls-15 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8 {
+        font-size: 15px;
+      }
+
+      .cls-8, .cls-12 {
+        fill: #fceb5e;
+      }
+
+      .cls-15 {
+        fill: none;
+      }
+
+      .cls-7 {
+        letter-spacing: .24em;
+      }
+
+      .cls-3 {
+        letter-spacing: .23em;
+      }
+    </style>
+  </defs>
+  <g id="post-data-grouh">
+    <circle class="cls-9" cx="180" cy="227.07" r="180"/>
+    <path class="cls-14" d="M180.5,228.7V46.57c67-3.5,163.82,51.18,178,154l-178,28.13Z"/>
+    <text class="cls-8" transform="translate(206.12 130.33)"><tspan x="0" y="0">ライフスタイル</tspan></text>
+    <text class="cls-12" transform="translate(208.17 170.97)"><tspan class="cls-2" x="0" y="0">2</tspan><tspan class="cls-3" x="14.25" y="0">2</tspan><tspan class="cls-7" x="36.3" y="0">%</tspan></text>
+    <polyline class="cls-15" points="307.5 353.57 180.5 228.7 133.5 399.57"/>
+    <text class="cls-8" transform="translate(269.33 249.08)"><tspan x="0" y="0">エンタメ</tspan></text>
+    <text class="cls-12" transform="translate(269.05 280.89)"><tspan class="cls-2" x="0" y="0">1</tspan><tspan class="cls-1" x="14.25" y="0">9</tspan><tspan class="cls-4" x="35.25" y="0">%</tspan></text>
+    <text class="cls-5" transform="translate(180.5 322.28)"><tspan x="0" y="0">ビジネス</tspan></text>
+    <text class="cls-13" transform="translate(179.33 359.05)"><tspan class="cls-2" x="0" y="0">1</tspan><tspan class="cls-1" x="14.25" y="0">3</tspan><tspan class="cls-4" x="35.25" y="0">%</tspan></text>
+    <polyline class="cls-15" points="8.85 284.14 180.5 228.7 98.5 66.57"/>
+    <text class="cls-8" transform="translate(76.29 294.86)"><tspan x="0" y="0">音楽</tspan></text>
+    <text class="cls-12" transform="translate(74.6 335.12)"><tspan class="cls-2" x="0" y="0">1</tspan><tspan class="cls-1" x="14.25" y="0">9</tspan><tspan class="cls-4" x="35.25" y="0">%</tspan></text>
+    <line class="cls-15" x1="180.5" y1="228.7" x2="16.5" y2="151.57"/>
+    <text class="cls-5" transform="translate(30.41 199.63)"><tspan x="0" y="0">スポーツ</tspan></text>
+    <text class="cls-13" transform="translate(31.01 237.82)"><tspan class="cls-2" x="0" y="0">1</tspan><tspan class="cls-1" x="14.25" y="0">0</tspan><tspan class="cls-4" x="35.25" y="0">%</tspan></text>
+    <text class="cls-5" transform="translate(47.56 118.69)"><tspan x="0" y="0">カルチャー</tspan></text>
+    <text class="cls-13" transform="translate(46.21 149.22)"><tspan class="cls-2" x="0" y="0">1</tspan><tspan class="cls-1" x="14.25" y="0">0</tspan><tspan class="cls-4" x="35.25" y="0">%</tspan></text>
+    <text class="cls-6" transform="translate(45 10.31)"><tspan x="0" y="0">美容・コスメ</tspan></text>
+    <text class="cls-10" transform="translate(43.14 38.43)"><tspan class="cls-2" x="0" y="0">1</tspan><tspan class="cls-1" x="14.25" y="0">0</tspan><tspan class="cls-4" x="35.25" y="0">%</tspan></text>
+    <rect class="cls-11" x="92" y="27.57" width="50" height="3"/>
+    <rect class="cls-11" x="117" y="51.07" width="50" height="3" transform="translate(89.43 194.57) rotate(-90)"/>
+  </g>
+</svg>

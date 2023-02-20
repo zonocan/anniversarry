@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1050 449.28">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .2em;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        font-size: 12px;
+      }
+
+      .cls-2 {
+        letter-spacing: .4em;
+      }
+
+      .cls-3 {
+        letter-spacing: .26em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4, .cls-6, .cls-7 {
+        font-family: Osaka, Osaka;
+      }
+
+      .cls-8 {
+        fill: url(#_名称未設定グラデーション_188);
+      }
+
+      .cls-9 {
+        fill: url(#_名称未設定グラデーション_191);
+      }
+
+      .cls-10 {
+        fill: #fceb5e;
+      }
+
+      .cls-11 {
+        fill: #101545;
+      }
+
+      .cls-12 {
+        fill: #4684c1;
+      }
+
+      .cls-13 {
+        fill: url(#_名称未設定グラデーション_188-3);
+      }
+
+      .cls-14 {
+        fill: url(#_名称未設定グラデーション_188-2);
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6, .cls-7 {
+        font-size: 30px;
+      }
+
+      .cls-7 {
+        letter-spacing: .32em;
+      }
+
+      .cls-15 {
+        letter-spacing: .26em;
+      }
+
+      .cls-15, .cls-16, .cls-17, .cls-18 {
+        font-size: 25px;
+      }
+
+      .cls-16 {
+        letter-spacing: .4em;
+      }
+
+      .cls-5 {
+        letter-spacing: .32em;
+      }
+
+      .cls-5, .cls-19 {
+        font-family: Osaka-Mono, Osaka;
+      }
+
+      .cls-17 {
+        letter-spacing: .2em;
+      }
+
+      .cls-18 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-19 {
+        fill: #52bfce;
+      }
+    </style>
+    <linearGradient id="_名称未設定グラデーション_188" data-name="名称未設定グラデーション 188" x1="875" y1="423.19" x2="875" y2="73.19" gradientTransform="translate(0 -6)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#599ced"/>
+      <stop offset=".88" stop-color="#5ccbed"/>
+      <stop offset="1" stop-color="#5dd3ed"/>
+    </linearGradient>
+    <linearGradient id="_名称未設定グラデーション_188-2" data-name="名称未設定グラデーション 188" x1="733" y1="416.19" x2="733" y2="216.19" gradientTransform="translate(-100)" xlink:href="#_名称未設定グラデーション_188"/>
+    <linearGradient id="_名称未設定グラデーション_188-3" data-name="名称未設定グラデーション 188" x1="382" y1="299.19" x2="382" y2="199.19" gradientTransform="translate(0 118)" xlink:href="#_名称未設定グラデーション_188"/>
+    <linearGradient id="_名称未設定グラデーション_191" data-name="名称未設定グラデーション 191" x1="73" y1="216.19" x2="73" y2="206.19" gradientTransform="translate(80 200)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".32" stop-color="#cef1f9"/>
+      <stop offset="1" stop-color="#5dd3ed"/>
+    </linearGradient>
+  </defs>
+  <g id="user-grouh">
+    <rect class="cls-11" y="417.19" width="1050" height="3"/>
+    <rect class="cls-8" x="850" y="67.19" width="50" height="350" transform="translate(1750 484.38) rotate(180)"/>
+    <rect class="cls-14" x="608" y="216.19" width="50" height="200" transform="translate(1266 632.38) rotate(180)"/>
+    <rect class="cls-13" x="357" y="317.19" width="50" height="100" transform="translate(764 734.38) rotate(180)"/>
+    <rect class="cls-9" x="128" y="406.19" width="50" height="10"/>
+    <text class="cls-12" transform="translate(795.48 25.78)"><tspan class="cls-6" x="0" y="0">1,504,21</tspan><tspan class="cls-7" x="137.32" y="0">0</tspan><tspan class="cls-5" x="166.8" y="0">人</tspan></text>
+    <rect class="cls-10" x="800" y="35.19" width="186" height="2"/>
+    <text class="cls-19" transform="translate(577.82 180.46)"><tspan class="cls-18" x="0" y="0">762,20</tspan><tspan class="cls-16" x="71.25" y="0">0</tspan><tspan class="cls-2" x="93.62" y="0">人</tspan></text>
+    <text class="cls-19" transform="translate(329.41 283.7)"><tspan class="cls-18" x="0" y="0">287,43</tspan><tspan class="cls-15" x="71.25" y="0">3</tspan><tspan class="cls-3" x="90.12" y="0">人</tspan></text>
+    <text class="cls-19" transform="translate(137.05 387.76)"><tspan class="cls-17" x="0" y="0">0</tspan><tspan class="cls-1" x="17.5" y="0">人</tspan></text>
+    <text class="cls-4" transform="translate(840.15 446.56)"><tspan x="0" y="0">2020年11月</tspan></text>
+    <text class="cls-4" transform="translate(598.15 446.56)"><tspan x="0" y="0">2019年11月</tspan></text>
+    <text class="cls-4" transform="translate(347.15 446.56)"><tspan x="0" y="0">2018年11月</tspan></text>
+    <text class="cls-4" transform="translate(118.15 446.56)"><tspan x="0" y="0">2017年11月</tspan></text>
+  </g>
+</svg>

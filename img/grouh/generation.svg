@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 361 361">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 35px;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-5 {
+        font-size: 12px;
+        letter-spacing: .26em;
+      }
+
+      .cls-2, .cls-6, .cls-7 {
+        letter-spacing: .2em;
+      }
+
+      .cls-6, .cls-8, .cls-3, .cls-9 {
+        font-size: 20px;
+      }
+
+      .cls-10 {
+        font-size: 15px;
+        letter-spacing: .26em;
+      }
+
+      .cls-11 {
+        font-size: 30px;
+      }
+
+      .cls-12 {
+        fill: #4684c1;
+      }
+
+      .cls-12, .cls-13, .cls-14 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-13 {
+        fill: #101545;
+      }
+
+      .cls-14 {
+        fill: none;
+      }
+
+      .cls-15 {
+        letter-spacing: .26em;
+      }
+
+      .cls-15, .cls-4 {
+        font-size: 25px;
+      }
+
+      .cls-9 {
+        letter-spacing: .25em;
+      }
+
+      .cls-16 {
+        fill: #fceb5e;
+      }
+
+      .cls-16, .cls-17, .cls-7 {
+        font-family: Osaka-Mono, Osaka;
+      }
+
+      .cls-17, .cls-7 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="user-generation">
+    <circle class="cls-12" cx="180.5" cy="180.5" r="180"/>
+    <path class="cls-13" d="M53.22,307.78c70.29,70.29,184.26,70.29,254.56,0,70.29-70.29,70.29-184.26,0-254.56L53.22,307.78Z"/>
+    <polyline class="cls-14" points="180.5 .5 180.5 180.5 74.51 33.32"/>
+    <text class="cls-17" transform="translate(201.37 51.16)"><tspan class="cls-3" x="0" y="0">1</tspan><tspan class="cls-9" x="9.5" y="0">0</tspan><tspan class="cls-5" x="24.6" y="0">代</tspan></text>
+    <text class="cls-7" transform="translate(202.96 88.44)"><tspan class="cls-11" x="0" y="0">8</tspan><tspan class="cls-8" x="21" y="0">%</tspan></text>
+    <text class="cls-16" transform="translate(220.79 213.16)"><tspan class="cls-4" x="0" y="0">2</tspan><tspan class="cls-15" x="11.88" y="0">0</tspan><tspan class="cls-10" x="30.75" y="0">代</tspan></text>
+    <text class="cls-16" transform="translate(220.09 253.84)"><tspan class="cls-1" x="0" y="0">4</tspan><tspan class="cls-2" x="16.62" y="0">9</tspan><tspan class="cls-6" x="41.12" y="0">%</tspan></text>
+    <text class="cls-17" transform="translate(121.32 51.16)"><tspan class="cls-3" x="0" y="0">4</tspan><tspan class="cls-9" x="9.5" y="0">0</tspan><tspan class="cls-5" x="24.6" y="0">代</tspan></text>
+    <text class="cls-7" transform="translate(133.87 88.44)"><tspan class="cls-11" x="0" y="0">6</tspan><tspan class="cls-8" x="21" y="0">%</tspan></text>
+    <text class="cls-16" transform="translate(52.74 146.3)"><tspan class="cls-4" x="0" y="0">3</tspan><tspan class="cls-15" x="11.88" y="0">0</tspan><tspan class="cls-10" x="30.75" y="0">代</tspan></text>
+    <text class="cls-16" transform="translate(51.6 191.34)"><tspan class="cls-1" x="0" y="0">3</tspan><tspan class="cls-2" x="16.62" y="0">7</tspan><tspan class="cls-6" x="41.12" y="0">%</tspan></text>
+  </g>
+</svg>

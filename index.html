@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous"
+    referrerpolicy="no-referrer">      
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Anniversarry</title>
+</head>
+<body>
+    <div id="app">
+       <header class="header">
+            <div class="header-inner">
+                <headerlogo :logo_path="header_logo"></headerlogo>
+                <headerlinks
+                    v-for="(links, link) in header_links"
+                    :key="link"
+                    :link_download="links.link_download"
+                    :link_humberger="links.link_humberger">
+                </headerlinks>
+            </div>
+       </header>
+       <main>
+            <!-- top -->
+            <div class="top">
+                <div class="top-slider-list">
+                    <div class="top-slider top-slider-left">
+                        <swiper :options="swiperOptions">
+                            <swiper-slide
+                                v-for="(images, image) in top_slider_left"
+                                :key="image">
+                                <img :src="images.path" alt="">
+                            </swiper-slide>
+                        </swiper>
+                    </div>
+                    <div class="top-slider top-slider-right">
+                        <swiper :options="swiperOptions">
+                            <swiper-slide
+                                v-for="(images, image) in top_slider_right"
+                                :key="image">
+                                <img :src="images.path" alt="">
+                            </swiper-slide>
+                        </swiper>
+                    </div> 
+                </div>  
+                <div class="top-wrap">
+                    <toph1 :top_h1="top_h1">{{ top_h1 }}</toph1>
+                    <topexplain
+                        v-for="(explains, explain) in top_explains"
+                        :key="explain"
+                        :top_explain="explains.explain">
+                    </topexplain>
+                </div>             
+            </div>
+            <!-- sp画面の挨拶 -->
+            <div class="top-wrap-sp">
+                <toph1 :top_h1="top_h1">{{ top_h1 }}</toph1>
+                <topexplain
+                    v-for="(explains, explain) in top_explains"
+                    :key="explain"
+                    :top_explain="explains.explain">
+                </topexplain>
+            </div>  
+            <!-- sp画面の挨拶 -->
+            <!-- top -->     
+            
+            <!-- gragh -->
+            <div class="gragh">
+                <h1 class="h1 gragh-h1"><span>#1</span>数字で見るHello Voiceの軌跡</h1>
+                <graghuser
+                    v-for="(menu, i) in gragh_user"
+                    :key="i"
+                    :h2="menu.h2"
+                    :path_150_user="menu.path_150_user"
+                    :path_gragh="menu.path_gragh">
+                </graghuser>
+                <div class="two-col-gragh">
+                    <graghround
+                        class="gragh-junru"
+                        v-for="(menu, i) in gragh_junru"
+                        :key="i"
+                        :span="menu.span"
+                        :h2="menu.h2"
+                        :path="menu.path">
+                    </graghround>
+                    <graghround
+                        class="gragh-generation"
+                        v-for="(menu, i) in gragh_generation"
+                        :key="i"
+                        :span="menu.span"
+                        :h2="menu.h2"
+                        :path="menu.path">
+                    </graghround>
+                </div>
+                <graghcontent
+                    v-for="(menu, i) in gragh_contents"
+                    :key="i"
+                    :h2="menu.h2"
+                    :path="menu.path">
+                </graghcontent>
+            </div>
+            <!-- gragh -->
+
+            <!-- chanel -->
+            <div class="chanel">
+                <h1 class="h1 chanel-h1"><span>#2</span>人気チャンネル</h1>
+                <!-- PC -->
+                <div class="chanel-slider-pc">
+                    <el-carousel :per-page="1" :speed="15000" height="60vw">
+                        <el-carousel-item
+                            v-for="(lists,list) in chanel_slider_lists"
+                            :key="list">
+                            <img :src="lists.path" alt="" class="chanel-imgs">
+                        </el-carousel-item>
+                    </el-carousel>
+                </div>
+                <!-- PC -->
+
+                <!-- SP -->
+                <div class="chanel-slider-sp">
+                    <el-carousel :per-page="1" :speed="150000" height="93vw">
+                        <el-carousel-item
+                            v-for="(lists,list) in chanel_slider_lists"
+                            :key="list">
+                            <img :src="lists.path" alt="" class="chanel-imgs">
+                        </el-carousel-item>
+                    </el-carousel>                    
+                </div>
+                <!-- SP -->
+                <div class="chanel-btn-wraper">
+                    <chanelbtn :label="btn_app"></chanelbtn>
+                    <chanelbtn :label="btn_br"></chanelbtn>
+                </div>
+            </div>
+            <!-- chanel -->
+
+            <!-- appliciate -->
+            <div class="appliciate">
+                <appliciateh1 :path="appliciate_h1"></appliciateh1>
+                <div class="appliciate-explain-wrap">
+                    <appliciateexplain
+                        v-for="(explains, explain) in appliciate_explains"
+                        :key="explain"
+                        :explain="explains.explain">
+                    </appliciateexplain>
+                </div>
+            </div>
+            <!-- appliciate -->
+
+       </main>
+       <footer class="footer">
+            <footerlogo :path="footer_logo"></footerlogo>
+            <div class="footer-btn-wrap">
+                <footerbtn
+                    v-for="(menu,i) in footer_btn"
+                    :key="i"
+                    :footer_btn="menu.path">
+                </footerbtn>
+            </div>
+       </footer>
+    </div>
+    <!-- vueの読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.11/dist/vue.js"></script>    
+    <!-- elementの読みこ込み -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/vue-carousel@0.18.0/dist/vue-carousel.min.js"></script>  
+    <!-- Swiper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@5.3.6/js/swiper.min.js"></script>
+    <!-- vue-awesome-swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/vue-awesome-swiper@3.1.2/dist/vue-awesome-swiper.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- swiperのcss -->
+    <link href="https://cdn.jsdelivr.net/npm/swiper@5.3.6/css/swiper.min.css" rel="stylesheet">    
+    <!-- jsファイル -->
+    <script src="./js/script.js"></script>    
+</body>
+</html>
